@@ -1,0 +1,26 @@
+{
+  "name": "ssh2-diff",
+  "version": "1.0.0",
+  "description": "",
+  "main": "rename.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-upload": "node upload.test.js",
+    "test-rename": "node rename.test.js",
+    "test-unlink": "node unlink.test.js",
+    "origin-upload": "node upload.origin.js",
+    "origin-rename": "node rename.origin.js",
+    "origin-unlink": "node unlink.origin.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^8.0.0",
+    "fs-extra": "^7.0.1",
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0",
+    "npm-run-all": "^4.1.5",
+    "ssh2": "^0.6.1"
+  }
+}
